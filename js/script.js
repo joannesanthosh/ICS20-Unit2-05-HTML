@@ -8,7 +8,7 @@
 /**
  * This function calculates the pay.
  */
-function pay() {
+function pay () {
   // input
   const numberOfHoursWorked = parseInt(document.getElementById('number-of-hours-worked').value)
   const hourlyRate = parseInt(document.getElementById('hourly-rate').value)
