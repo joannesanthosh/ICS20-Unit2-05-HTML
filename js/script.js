@@ -8,18 +8,17 @@
 /**
  * This function calculates the pay.
  */
-function calculate() {
+function pay() {
   // input
-  const Number of Hours Worked = parseInt(document.getElementById('Hours-worked-here').value)
-  const Hourly Rate = parseInt(document.getElementById('Hourly-Rate-Here').value)
+  const numberOfHoursWorked = parseInt(document.getElementById('number-of-hours-worked').value)
+  const hourlyRate = parseInt(document.getElementById('hourly-rate').value)
 
   // process
-  const pay = (hours * rate) * (1.00-0.18)
-  const taxes = (hours * rate) * 0.18
-  const some_var = 'Your pay will be: $' + takeHomeSalary.toFixed(2) parseFloat("10.33")
-
+  const takeHomeSalary = (numberOfHoursWorked * hourlyRate) * (1.00 - 0.18)
+  const governmentTax = (numberOfHoursWorked * hourlyRate) * 0.18
 
   // output
-  document.getElementById('pay').innerHTML= 'Your pay will be: $' + takeHomeSalary.toFixed(2) parseFloat("10.33")
-  
+ 
+  document.getElementById ('take-home-salary').innerHTML= 'Your pay will be: $' + takeHomeSalary.toFixed(2) 
+  document.getElementById ('government-tax').innerHTML= 'Your pay will be: $' + takeHomeSalary.toFixed(2) 
   }
