@@ -8,6 +8,7 @@
 /**
  * This function calculates the pay.
  */
+
 function pay () {
   // input
   const numberOfHoursWorked = parseInt(document.getElementById('number-of-hours-worked').value)
@@ -20,5 +21,5 @@ function pay () {
   // output
  
   document.getElementById ('take-home-salary').innerHTML= 'Your pay will be: $' + takeHomeSalary.toFixed(2) 
-  document.getElementById ('government-tax').innerHTML= 'Your pay will be: $' + takeHomeSalary.toFixed(2) 
+  document.getElementById ('government-tax').innerHTML= 'The government will take: $' + takeHomeSalary.toFixed(2) 
   }
