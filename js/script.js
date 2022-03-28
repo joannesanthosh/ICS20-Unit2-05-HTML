@@ -5,10 +5,10 @@
 // This file contains the JS functions for index.html
 
 'use strict'
+
 /**
  * This function calculates the pay.
  */
-
 function pay () {
   // input
   const numberOfHoursWorked = parseInt(document.getElementById("number-of-hours-worked").value)  
