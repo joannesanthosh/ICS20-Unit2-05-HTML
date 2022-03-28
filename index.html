@@ -36,8 +36,8 @@
 <form action="#">
   <p>Number of Hours Worked</p>
   <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="Number of Hours Worked">
-    <label class="mdl-textfield__label" for="Number of Hours Worked">Hours worked here</label>
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="number-of-hours-worked">
+    <label class="mdl-textfield__label" for="number-of-hours-worked">Hours worked here</label>
     <span class="mdl-textfield__error">Input is not a number!</span>
   </div>
 </form>
@@ -45,8 +45,8 @@
 <form action="#">
   <p>Hourly Rate</p>
   <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="Hourly Rate">
-    <label class="mdl-textfield__label" for="Hourly Rate">Hourly Rate Here</label>
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="hourly-rate">
+    <label class="mdl-textfield__label" for="hourly-rate">Hourly Rate Here</label>
     <span class="mdl-textfield__error">Input is not a number!</span>
   </div>
 </form>
@@ -54,6 +54,9 @@
 <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="pay()">
   Pay
        </button>
+    <div id="take-home-salary"></div>
+    <div id="government-tax"></div>
+    
       </main>
     </div>
   </body>
